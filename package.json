@@ -1,0 +1,51 @@
+{
+  "name": "gemini-heal",
+  "version": "0.1.0",
+  "description": "Production-ready resilience toolkit for the Gemini API. Handles rate limits, MALFORMED_FUNCTION_CALL errors, adaptive backoff, and circuit breaking.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "gemini",
+    "google-ai",
+    "google-generative-ai",
+    "rate-limit",
+    "resilience",
+    "malformed-function-call",
+    "llm",
+    "ai",
+    "tool-calling",
+    "circuit-breaker"
+  ],
+  "author": "Emotix Team <team@emotix.app>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emotix/gemini-heal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emotix/gemini-heal/issues"
+  },
+  "homepage": "https://github.com/emotix/gemini-heal#readme",
+  "peerDependencies": {
+    "@google/generative-ai": ">=0.21.0"
+  },
+  "devDependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
