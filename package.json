@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emotix/gemini-heal.git"
+    "url": "https://github.com/emotixco/gemini-heal.git"
   },
   "bugs": {
-    "url": "https://github.com/emotix/gemini-heal/issues"
+    "url": "https://github.com/emotixco/gemini-heal/issues"
   },
-  "homepage": "https://github.com/emotix/gemini-heal#readme",
+  "homepage": "https://github.com/emotixco/gemini-heal#readme",
   "peerDependencies": {
     "@google/generative-ai": ">=0.21.0"
   },
